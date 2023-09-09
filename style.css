@@ -1,0 +1,97 @@
+body {
+  background-image: url("./Espacio.jpg");
+  display: block;
+  color: white;
+     }
+header{
+    text-align: center;
+    color: white;
+    padding: 15px;
+ }
+ .menu {
+     border: 1px solid white;
+     padding: 5xp 10x;
+     margin-bottom: 15px;
+ }
+
+ .menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.titulo1 {
+    padding: 2.1rem;
+    margin-bottom: 15px;
+}
+.seccion {
+    border: 1px solid white;
+    padding: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.timeline {
+    border: 1px solid white;  
+    margin-bottom: 15px;
+}
+
+.piedepagina {
+    width: 60%;
+    text-align: left;
+    padding: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.comments {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.comment {
+    background-color: #f5f5f5;
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.comment-form {
+    margin-top: 20px;
+}
+
+#comment-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pie {
+    clear: both;
+    padding: 20px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contenedor a {
+    font-size: 20px;
+    transition: all ease 300ms;
+}
+
+.contenedor a :hover {
+    transform: scale(1.2);
+}
